@@ -2,7 +2,7 @@
 document.getElementById('button').addEventListener('click', comparison)
 let userInput = 0
 
-function comparison() {
+function comparison () {
   // Converts user input to an integer.
   userInput = document.getElementById('input').value
   // Checks if user input is less than 0.
